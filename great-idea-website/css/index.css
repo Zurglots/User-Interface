@@ -64,3 +64,179 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* body {
+  margin: 0 auto;
+} */
+
+/* img .logo {
+  display: inline-block;
+  margin: 25px;
+} */
+
+body {
+	display: inline-block;
+	max-width: 900px;
+	margin: auto;
+  }
+  
+  .logo {
+	display: inline-block;
+	padding: 50px 0 0 0;
+	
+  }
+  
+  .nav-guide nav a {
+	display: inline-block;
+	color: gray;
+	text-decoration: none;
+	background: white;
+	width: 110px;
+	height: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+   
+  }
+  
+  div > h1 {
+	font-size: 70px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+	margin-left: 90px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	line-height: .5
+   
+  }
+  
+  .cta-image {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 400px;
+	width: 49%;
+  }
+  
+  div.main-cta {
+	display: inline-block;
+	height: 45%;
+	width: 50%;
+  }
+  
+  .main-cta > button {
+	display: inline-block;
+	border: 2px solid gray;
+	color: gray;
+	background: white;
+	height: 30px;
+	width: 170px;
+	margin-left: 175px;
+	
+	
+  }
+  
+  h2 {
+	padding-top: 10px
+  }
+  
+  div.top-content {
+	text-align: left;
+  }
+  .top-left {
+	display: inline-block;
+	width: 48%;
+	margin: 10px;
+	padding-bottom: 10px;
+  }
+  .top-left > p {
+	display: inline-block;
+	width:95%;
+	text-align: left;
+	
+  }
+  
+  .top-right {
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+	padding-bottom: 10px;
+  }
+  
+  .top-right > p {
+	display: inline-block;
+	width: 95%;
+	text-align: left;
+	
+  }
+  
+  img.banner {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 95%;
+  }
+  
+  div.bottom-content{
+	text-align: left;
+	display: inline-block;
+  }
+  
+  .bottom-left {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+	padding-left: 5px;
+  }
+  
+  .bottom-middle {
+	display: inline-block;
+	width: 30%;
+	margin: 2px;
+	padding-left: 5px;
+  }
+  
+  .bottom-right {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+	padding-left: 5px;
+  }
+  
+  footer {
+	display: inline-block;
+	width: 30%;
+	align: left;
+  }
+  footer > .footer-info {
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	
+  }
+  
+  footer > h2 {
+	display: inline-block;
+	bottom-padding: -100px
+  }
+  
+  div.copyright {
+	display: block;
+	text-align: center;
+	width: 80%;
+  }
+  
+  body > div:last-child {
+	width: 900px;
+	display: inline-block;
+	height: 50px;
+	margin-bottom: 25px;
+  }
+  
+  /* div.main-cta > button {
+	display: inline-block;
+	border: 2px solid black;
+	height: 25px;
+	width: 50px;
+	
+  } */
